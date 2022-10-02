@@ -2,6 +2,10 @@
   text-align: center;
 }
 
+#root {
+  padding: 25px;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -26,6 +30,34 @@
 
 .App-link {
   color: #61dafb;
+}
+.form-control {
+  color: blue;
+  font-size: larger;
+}
+
+.input_text_right {
+  color: rgb(31, 29, 29);
+  font-size: larger;
+
+  padding: 0.375rem 2.75rem;
+}
+
+.input_text_left {
+  color: rgb(72, 72, 245);
+  padding: 0.375rem 0.75rem;
+  font-size: larger;
+}
+
+.header {
+  font-size: xx-large;
+  font-weight: bold;
+  text-align: left;
+  text-decoration: underline;
+}
+
+.cursor:hover {
+  cursor: pointer;
 }
 
 @keyframes App-logo-spin {
