@@ -37,16 +37,30 @@
 }
 
 .input_text_right {
-  color: rgb(31, 29, 29);
+  color: rgb(46, 46, 46);
   font-size: larger;
 
   padding: 0.375rem 2.75rem;
 }
 
 .input_text_left {
-  color: rgb(72, 72, 245);
+  color: blue;
   padding: 0.375rem 0.75rem;
   font-size: larger;
+}
+
+.input_text_secondright {
+  color: rgb(146, 139, 139);
+  font-size: larger;
+
+  padding: 0.375rem 4.75rem;
+}
+
+.input_text_secondleft {
+  color: rgb(119, 115, 115);
+  font-size: larger;
+
+  padding: 0.375rem 2.75rem;
 }
 
 .header {
